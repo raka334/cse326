@@ -1,4 +1,4 @@
-.navbar{
+    .navbar{
     display: flex;
     border: 2px solid black;
     width: auto;
@@ -33,7 +33,7 @@
 }
 .heading{
     display: flex;
-    flex-direction: row;
+    flex-direction: ;
     margin-top: .2em;
     font-size: 8em;
     border: 2px solid green;
@@ -41,7 +41,19 @@
 }
 .ladyimage{
     display: flex;
-    /* background-image: url(/img/hero1.png); */
+    background-image: url(/img/hero1.png);
+    background-repeat: no-repeat;
+    
     border: 2px solid green;
     
+    padding-left: 320px;
+    width: 1110px;
+    
+}
+
+    
+
+.main{
+display: flex;
+flex-direction: row;
 }
