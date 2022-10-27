@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    border: 2px solid black;
+    width: auto;
+    /* justify-content: right; */
+    
+}
+.navbar1{
+    display: flex;
+    font-size: 5em;
+    padding: 0.5rem;
+    border: 2px solid red;
+    align-self: left;
+    
+    
+    
+}
+.navbar2{
+    display: flex;
+    align-self:center;
+    float: right;
+    
+    justify-content: right;   
+    border: 2px solid red; 
+    align-self: right;
+    flex-grow: 2;
+}
+
+.navbar-txt{
+    padding: 20px 5px;
+    margin: 10px 5px;
+    font-size: 2.5em;
+}
+.heading{
+    display: flex;
+    flex-direction: row;
+    margin-top: .2em;
+    font-size: 8em;
+    border: 2px solid green;
+
+}
+.ladyimage{
+    display: flex;
+    /* background-image: url(/img/hero1.png); */
+    border: 2px solid green;
+    
+}
