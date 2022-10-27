@@ -42,12 +42,13 @@
 .ladyimage{
     display: flex;
     background-image: url(/img/hero1.png);
+    
+    height: 65rem;
+
     background-repeat: no-repeat;
-    
+    background-size: 90rem  ;
     border: 2px solid green;
-    
-    padding-left: 320px;
-    width: 1110px;
+    width: 1190px;
     
 }
 
@@ -56,4 +57,6 @@
 .main{
 display: flex;
 flex-direction: row;
+width: auto;
+
 }
