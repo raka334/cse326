@@ -34,22 +34,33 @@
 .heading{
     display: flex;
     flex-direction: ;
-    margin-top: .2em;
+    margin-top: .7em;
     font-size: 8em;
     border: 2px solid green;
 
 }
 .ladyimage{
     display: flex;
-    background-image: url(/img/hero1.png);
+    border: 2px solid brown;
+    
+    /* background-image: url(/img/hero1.png);
     
     height: 65rem;
 
     background-repeat: no-repeat;
     background-size: 90rem  ;
     border: 2px solid green;
-    width: 1190px;
+    width: 1190px; */
     
+}
+#ladyimg{
+transform: scale(0.56);
+left: 35em;
+position: absolute;
+top:-13rem;
+display: flex;
+
+
 }
 
     
@@ -59,4 +70,34 @@ display: flex;
 flex-direction: row;
 width: auto;
 
+}
+.offers{
+    display: flex;
+    font-size: 12em;
+    margin-top: 10rem;
+    border: solid 2px greenyellow;
+}
+.proffers{
+    display: block;
+    height: 2.2em;
+    width: 1.8em ;
+    border:2px solid red;
+    border-radius: 30px;
+}
+.offerings{
+    display: block;
+    font-size: 15rem;
+    text-align: center;
+
+}
+.products{
+    display: flex;
+    border: solid 2px maroon;
+}
+.productslist{
+    display: flex;
+    height: 22.2em;
+    width: 25.4em ;
+    border:2px solid red;
+    border-radius: 30px;
 }
