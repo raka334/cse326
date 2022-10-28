@@ -1,4 +1,4 @@
-    .navbar{
+.navbar{
     display: flex;
     border: 2px solid black;
     width: auto;
@@ -42,16 +42,8 @@
 .ladyimage{
     display: flex;
     border: 2px solid brown;
-    
-    /* background-image: url(/img/hero1.png);
-    
-    height: 65rem;
 
-    background-repeat: no-repeat;
-    background-size: 90rem  ;
-    border: 2px solid green;
-    width: 1190px; */
-    
+
 }
 #ladyimg{
 transform: scale(0.56);
