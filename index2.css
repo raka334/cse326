@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 
 body{
@@ -46,10 +47,12 @@ body{
     display: flex;
     /* flex-direction: ; */
     margin-top: .7em;
+    font-family: 'Poppins', sans-serif;
     font-size: 8em;
     font-weight: bold;
     color: white;
     border: 2px solid green;
+    line-height: 1.1em;
 
 
 }
