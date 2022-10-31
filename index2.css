@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    background-image: linear-gradient(110deg, #1fa83c 10%, hsl(197, 100%, 88%) 90%);
+    font-family: 'Poppins', sans-serif;
+    
+}
+
 .navbar{
     display: flex;
     border: 2px solid black;
@@ -27,16 +36,21 @@
 }
 
 .navbar-txt{
-    padding: 20px 5px;
-    margin: 10px 5px;
+    padding: 0px 30px;
+    margin: 10px 10px;
     font-size: 2.5em;
+    color: white;
+
 }
 .heading{
     display: flex;
-    flex-direction: ;
+    /* flex-direction: ; */
     margin-top: .7em;
     font-size: 8em;
+    font-weight: bold;
+    color: white;
     border: 2px solid green;
+
 
 }
 .ladyimage{
