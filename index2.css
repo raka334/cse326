@@ -33,7 +33,7 @@
 }
 .heading{
     display: flex;
-    flex-direction: ;
+    
     margin-top: .7em;
     font-size: 8em;
     border: 2px solid green;
@@ -46,10 +46,10 @@
 
 }
 #ladyimg{
-transform: scale(0.56);
+transform: scale(0.55);
 left: 35em;
 position: absolute;
-top:-13rem;
+top: -14rem;
 display: flex;
 
 
