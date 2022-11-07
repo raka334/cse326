@@ -149,3 +149,18 @@ width: auto;
    font-weight: 500;
     transform:scale(1.1) ;
 }
+.Revoltion
+{
+    font-size: 10rem;
+    text-align: center;  
+}
+.Revoltion1{
+    font-size: 2rem;
+}
+.Revoltion2{
+    font-size : 2rem;
+}
+.Revoltion3{
+    font-size: 6rem;
+    text-align: center ;
+}
