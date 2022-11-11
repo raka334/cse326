@@ -48,6 +48,7 @@ body{
     transition: 500ms;
     transform: scale(1);
     cursor: pointer;
+    font-variant-caps: small-caps;
     
 
 
@@ -100,6 +101,11 @@ width: auto;
     border: solid 2px greenyellow;
     flex-wrap: wrap;
     box-shadow: 10px 10px balck ;
+    background-image: linear-gradient(180deg, #005a13 10%, hsl(138deg 50% 50%) 90%); 
+    color: white;
+    border-radius: 80px 80px 0px 0px;
+    padding: 0px 0px 190px 0px;
+
     
 }
 .proffers{
@@ -112,13 +118,19 @@ width: auto;
 }
 .offerings{
     display: block;
-    font-size: 12rem;
+    font-size: 5rem;
     text-align: center;
+    background-image: linear-gradient(180deg, #005a13 10%, hsl(138deg 50% 50%) 90%);
+    color: white;
+    border-radius: 80px 80px 0px 0px;
+    margin-top: -120px;
+    padding: 0px 0px 0px 0px;
 
 }
 .products{
     display: flex;
     border: solid 2px maroon;
+    padding: 0px 0px 190px 0px;
 }
 .productslist{
     display: flex;
@@ -128,21 +140,27 @@ width: auto;
     border-radius: 30px;
 }
 .shopnow {
-    
-	
-
 	display: inline-block;
-	margin: 25px 8px;
-	padding: 10px 16px;
-	font-family: 'Boogaloo', cursive;
-	font-size: 5em;
+	margin: 75px 8px;
+	padding: 10px 30px 10px 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 3.5em;
 	color: #ffffff;
 	text-decoration: none;
 	border: none;
 	outline: none;
 	cursor: pointer;
-	background-color: darkblue;
-	box-shadow: 12px 12px 0 blue;
+	background-color: #0d4e24;
+	box-shadow: 12px 12px 0 #009518db;
+    border-radius: 80px;
+    transition: 400ms;
+
+}
+
+.shopnow:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: green;
+    transition: 400ms;
 }
 
 .shopnow:active {
@@ -153,40 +171,65 @@ width: auto;
     
    
     /* text-decoration: underline; */
-   transition: 200ms ease-in-out;
+   transition: 250ms ease-in-out;
    font-weight: 500;
     transform:scale(1.1) ;
 }
 .Revoltion
 {
-    font-size: 9rem;
+    font-size: 5rem;
     text-align: center;
-    background-color: white;  
+    color: white;
+    background-image: linear-gradient(180deg, #005a13 10%, hsl(138deg 50% 50%) 90%);  
+    border-radius: 80px 80px 0px 0px;
+    padding: 50px 20px 60px 20px;
+    margin-top: -120px;
 }
 .Revoltion1{
-    font-size: 2rem;
+    font-size: 3rem;
+    padding: 50px 0px 0px 0px;
 }
 .Revoltion2{
-    font-size : 2rem;
+    font-size : 2.5rem;
 }
 .Revoltion3{
     margin-top: -150px;
     font-size: 6rem;
     text-align: center ;
 }
-.city{
-    font-size: 3rem;
-    
-   
-    
+div.city{
+    font-size: 6rem;
+    padding: 90px 0px 190px 0px;
     text-align: center;
+    color: black;
+    background-color: white;
 }
 .cityn{
     display: flex;
     flex-wrap: wrap;
     font-family: 'Lato', sans-serif;
-    font-size: 2em;
+    font-size: 0.9em;
     white-space: pre;
+    padding: 40px 0px 0px 0px;
+}
+
+
+.brandlogo{
+    background-color: white;
+    width: 100%;
+    margin-top: -120px;
+    font-size: 2em;
+    padding: 50px 50px 50px 50px;
+}
+
+.brandlogo > img{
+    width: 1700px;
+    padding: 0px 100px 0px 100px;
+}
+
+.brandlogo > h2{
+    margin-left: 80px;
+    font-size: 3.5em;
 }
 
 
