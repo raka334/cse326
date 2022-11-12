@@ -12,7 +12,7 @@ body{
 
 .navbar{
     display: flex;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: auto;
     /* justify-content: right; */
     
@@ -21,7 +21,7 @@ body{
     display: flex;
     font-size: 5em;
     padding: 0.5rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     align-self: left;
     color: aliceblue;
     font-weight:bold    ;
@@ -35,7 +35,7 @@ body{
     float: right;
     
     justify-content: right;   
-    border: 2px solid red; 
+    /* border: 2px solid red;  */
     align-self: right;
     flex-grow: 2;
 }
@@ -43,11 +43,12 @@ body{
 .navbar-txt{
     padding: 0px 30px;
     margin: 10px 10px;
-    font-size: 2.5em;
+    font-size: 1.8em;
     color: white;
     transition: 500ms;
     transform: scale(1);
     cursor: pointer;
+    font-variant-caps: small-caps;
     
 
 
@@ -59,7 +60,7 @@ body{
     font-size: 8em;
     font-weight: bold;
     color: white;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     line-height: 1.1em;
     box-sizing: content-box;
     place-items: center;
@@ -71,7 +72,7 @@ body{
 
 .ladyimage{
     display: flex;
-    border: 2px solid brown;
+    /* border: 2px solid brown; */
 
 
 }
@@ -97,7 +98,7 @@ width: auto;
     display: flex;
     font-size: 12em;
     margin-top: 10rem;
-    border: solid 2px greenyellow;
+    /* border: solid 2px greenyellow; */
     flex-wrap: wrap;
     box-shadow: 10px 10px balck ;
     margin-right: 10px;
@@ -114,13 +115,19 @@ width: auto;
 }
 .offerings{
     display: block;
-    font-size: 12rem;
+    font-size: 5rem;
     text-align: center;
+    background-image: linear-gradient(180deg, #005a13 10%, hsl(138deg 50% 50%) 90%);
+    color: white;
+    border-radius: 80px 80px 0px 0px;
+    margin-top: -180px;
+    padding: 0px 0px 0px 0px;
 
 }
 .products{
     display: flex;
     border: solid 2px maroon;
+    padding: 0px 0px 190px 0px;
 }
 .productslist{
     display: flex;
@@ -130,14 +137,11 @@ width: auto;
     border-radius: 30px;
 }
 .shopnow {
-    
-	
-
 	display: inline-block;
-	margin: 25px 8px;
-	padding: 10px 16px;
-	font-family: 'Boogaloo', cursive;
-	font-size: 5em;
+	margin: 75px 8px;
+	padding: 10px 30px 10px 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 3.5em;
 	color: #ffffff;
 	text-decoration: none;
 	border: none;
@@ -155,39 +159,44 @@ width: auto;
     
    
     /* text-decoration: underline; */
-   transition: 200ms ease-in-out;
+   transition: 250ms ease-in-out;
    font-weight: 500;
     transform:scale(1.1) ;
 }
 .Revoltion
 {
-    font-size: 9rem;
+    font-size: 5rem;
     text-align: center;
-    background-color: white;  
+    color: white;
+    background-image: linear-gradient(180deg, #005a13 10%, hsl(138deg 50% 50%) 90%);  
+    border-radius: 80px 80px 0px 0px;
+    padding: 50px 20px 60px 20px;
+    
 }
 .Revoltion1{
-    font-size: 2rem;
+    font-size: 3rem;
+    padding: 50px 0px 0px 0px;
 }
 .Revoltion2{
-    font-size : 2rem;
+    font-size : 2.5rem;
 }
 .Revoltion3{
     margin-top: -150px;
     font-size: 6rem;
     text-align: center ;
 }
-.city{
-    font-size: 3rem;
-    
-   
-    
+div.city{
+    font-size: 6rem;
+    padding: 90px 0px 190px 0px;
     text-align: center;
+    color: black;
+    background-color: white;
 }
 .cityn{
     display: flex;
     flex-wrap: wrap;
     font-family: 'Lato', sans-serif;
-    font-size: 2em;
+    font-size: 0.9em;
     white-space: pre;
     text-shadow: 2px 2px 5px black;
 }

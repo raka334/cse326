@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+body{
+    background-image: linear-gradient(110deg, #1fa83c 10%, hsl(197, 100%, 88%) 90%);
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    /* width: ; */
+    
+}
+
+.navbar{
+    display: flex;
+    border: 2px solid black;
+    width: auto;
+    /* justify-content: right; */
+    
+}
+.navbar1{
+    display: flex;
+    font-size: 5em;
+    padding: 0.5rem;
+    border: 2px solid red;
+    align-self: left;
+    color: aliceblue;
+    font-weight:bold    ;
+    
+    
+    
+}
+.navbar2{
+    display: flex;
+    align-self:center;
+    float: right;
+    
+    justify-content: right;   
+    border: 2px solid red; 
+    align-self: right;
+    flex-grow: 2;
+}
+
+.navbar-txt{
+    padding: 0px 30px;
+    margin: 10px 10px;
+    font-size: 2.5em;
+    color: white;
+    transition: 500ms;
+    transform: scale(1);
+    
+
+
+}
+.heading{
+    display: block;
+    margin-top: .7em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 8em;
+    font-weight: bold;
+    color: white;
+    border: 2px solid green;
+    line-height: 1.1em;
+    box-sizing: content-box;
+    place-items: center;
+
+
+}
+
+
+
+.ladyimage{
+    display: flex;
+    border: 2px solid brown;
+
+
+}
+#ladyimg{
+transform: scale(0.56);
+left: 35em;
+position: absolute;
+top:-7rem;
+display: flex;
+
+
+}
+
+    
+
+.main{
+display: flex;
+flex-direction: row;
+width: auto;
+
+}
+.offers{
+    display: flex;
+    font-size: 6em;
+    margin-top: 10rem;
+    border: solid 2px greenyellow;
+    color: white;
+    
+}
+.proffers{
+    display: block;
+    height: 2.2em;
+    width: 1.8em ;
+    border:2px solid red;
+    border-radius: 30px;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.2);
+}
+.offerings{
+    display: block;
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 150px;
+    color: rgb(7, 61, 7);
+    font-weight: bold;
+    font-family: unset;
+
+
+}
+.products{
+    display: flex;
+    border: solid 2px maroon;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.2);
+
+}
+.productslist{
+    display: flex;
+    height: 22.2em;
+    width: 25.4em ;
+    border:2px solid red;
+    border-radius: 30px;
+}
+.shopnow{
+    display: inline-block;
+    font-size: 2rem;
+    border: 8px solid pink;
+    margin: 20px 30px 10px ;
+    border-radius: 80px;
+    padding: 5px 15px;
+    color: aliceblue;
+    font-weight: bold;
+    
+}
+.shopnow:hover{
+    background-color: green;
+    transition: background-color 0.5s;
+    color: black;
+    
+}
+.navbar-txt:hover{
+    
+   
+    /* text-decoration: underline; */
+   transition: 200ms ease-in-out;
+   font-weight: 500;
+    transform:scale(1.1) ;
+}
