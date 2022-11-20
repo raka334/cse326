@@ -130,7 +130,7 @@ width: auto;
 }
 .products{
     display: flex;
-    border: solid 2px maroon;
+    
     padding: 0px 0px 190px 0px;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -142,8 +142,6 @@ width: auto;
 .productslist{
     display: flex;
     height: 22.2em;
-    
-    border:2px solid red;
     border-radius: 30px;
 }
 
