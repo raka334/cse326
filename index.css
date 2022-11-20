@@ -148,7 +148,7 @@ width: auto;
     border: 2px solid pink;
     height: 22.2em;
     width: 25.4em;
-    
+
 }
 
 .shopnow {
@@ -188,6 +188,7 @@ width: auto;
     color: white;
     background-image: linear-gradient(180deg, #005a13 10%, hsl(138deg 50% 50%) 90%);  
     border-radius: 60px 60px 0px 0px;
+    padding: 20rem;
     
     
 }
