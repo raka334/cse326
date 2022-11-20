@@ -133,7 +133,8 @@ width: auto;
     
     padding: 0px 0px 190px 0px;
     flex-wrap: wrap;
-    justify-content: space-between;
+    row-gap: 2em;
+    column-gap: 2em;
     margin: 20px;
 }
 
@@ -141,7 +142,7 @@ width: auto;
 
 .productslist{
     display: flex;
-    height: 35em;
+    height: 30em;
     border-radius: 30px;
 }
 
