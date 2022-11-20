@@ -134,26 +134,21 @@ width: auto;
     padding: 0px 0px 190px 0px;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 20px;
 }
-.products2{
-    display: flex;
-    border: solid 2px blue;
+
     
-}
+
 .productslist{
     display: flex;
     height: 22.2em;
-    width: 25.4em ;
+    
     border:2px solid red;
     border-radius: 30px;
 }
-.productslist2{
-    display: block;
-    border: 2px solid pink;
-    height: 22.2em;
-    width: 25.4em;
 
-}
+
+
 
 .shopnow {
 	display: inline-block;
@@ -287,6 +282,11 @@ i{
 a{
     text-decoration: none;
     color: white;
+}
+.productimg{
+    display: inline-block;
+    border-radius: 20px;
+
 }
 
 
