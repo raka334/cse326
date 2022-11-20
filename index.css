@@ -27,6 +27,7 @@ body{
     align-self: left;
     color: aliceblue;
     font-weight:bold    ;
+    margin-left: 85px;
     
     
     
@@ -66,7 +67,7 @@ body{
     line-height: 1.1em;
     box-sizing: content-box;
     place-items: center;
-
+    margin-left: 95px;
 
 }
 
@@ -104,7 +105,8 @@ width: auto;
     flex-wrap: wrap;
     box-shadow: 10px 10px balck ;
     margin-right: 10px;
-    
+    color: white;
+    margin-left: 30px;
 }
 .proffers{
     display: block;
@@ -149,8 +151,11 @@ width: auto;
 	border: none;
 	outline: none;
 	cursor: pointer;
-	background-color: #002D62;
-	box-shadow: 12px 12px 0 #007FFF;
+	background-color: #005a28;
+	box-shadow: 12px 12px 0 #bbffca;
+    border-radius: 80px;
+    padding: 12px 35px 18px 35px;
+    margin-left: 100px;
 }
 
 .shopnow:active {
@@ -238,11 +243,18 @@ div.city{
     
 
 }
+
 .aboutlist{
+    padding: 30px 30px 30px 0px;
+}
+
+.iconoir-twitter, .iconoir-instagram, .iconoir-linkedin, .iconoir-telegram{
     display: flex;
-    padding: 5rem 0rem;
+    flex-direction: row;
+    padding: 0px 0px;
     font-size: 4rem;
     flex-direction: row-reverse;
+
     
 
 }
