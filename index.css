@@ -134,12 +134,13 @@ width: auto;
     padding: 0px 0px 190px 0px;
 }
 .productslist{
-    display: flex;
+    display: inline-flex;
     height: 22.2em;
     width: 25.4em ;
     border:2px solid red;
     border-radius: 30px;
 }
+
 .shopnow {
 	display: inline-block;
 	margin: 75px 8px;
