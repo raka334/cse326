@@ -282,7 +282,7 @@ a{
     color: white;
 }
 .productimg{
-    display: inline-block;
+    display:block;
     border-radius: 20px;
 
 }
