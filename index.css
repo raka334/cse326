@@ -7,9 +7,9 @@
 }
 
 body{
-    background-image: linear-gradient(110deg, #1fa83c 10%, hsl(197, 100%, 88%) 90%);
+    /* background-image: linear-gradient(110deg, #1fa83c 10%, hsl(197, 100%, 88%) 90%); */
     font-family: 'Poppins', sans-serif;
-    
+    background-color: #1E3F20;
 }
 
 .navbar{
@@ -25,7 +25,8 @@ body{
     padding: 0.5rem;
     /* border: 2px solid red; */
     align-self: left;
-    color: aliceblue;
+    /* color: aliceblue; */
+    color: #94ECBE;
     font-weight:bold    ;
     margin-left: 85px;
     
@@ -47,7 +48,8 @@ body{
     padding: 0px 30px;
     margin: 10px 10px;
     font-size: 1.8em;
-    color: white;
+    /* color: white; */
+    color: #94ECBE;
     transition: 500ms;
     transform: scale(1);
     cursor: pointer;
@@ -62,7 +64,8 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 8em;
     font-weight: bold;
-    color: white;
+    /* color: white; */
+    color: #94ECBE;
     /* border: 2px solid green; */
     line-height: 1.1em;
     box-sizing: content-box;
@@ -105,7 +108,8 @@ width: auto;
     flex-wrap: wrap;
     box-shadow: 10px 10px balck ;
     margin-right: 10px;
-    color: white;
+    /* color: white; */
+    color: #94ECBE;
     margin-left: 30px;
 }
 .proffers{
@@ -121,8 +125,9 @@ width: auto;
     display: block;
     font-size: 5rem;
     text-align: center;
-    background-image: linear-gradient(180deg, #005a13 10%, hsl(138deg 50% 50%) 90%);
-    color: white;
+    /* background-image: linear-gradient(180deg, #005a13 10%, hsl(138deg 50% 50%) 90%); */
+    background-color:#1E3F20 ;
+    color: #94ECBE;
     border-radius: 60px 60px 0px 0px;
     
     padding: 0px 0px 0px 0px;
@@ -181,26 +186,30 @@ width: auto;
 }
 .Revoltion
 {
-    font-size: 5rem;
+    font-size: 5em;
     text-align: center;
-    color: white;
-    background-image: linear-gradient(180deg, #005a13 10%, hsl(138deg 50% 50%) 90%);  
+    color: #94ECBE;
+    /* background-image: linear-gradient(180deg, #005a13 10%, hsl(138deg 50% 50%) 90%);   */
+    background-color: #1E3F20;
     border-radius: 60px 60px 0px 0px;
-    padding: 20rem;
+    padding: 1.5em;
     
     
 }
 .Revoltion1{
     font-size: 3rem;
+    color:#94ECBE;
     
 }
 .Revoltion2{
     font-size : 2.5rem;
     padding-bottom:80px ;
+    color: #bbffca;
+    text-align: center;
 }
 .Revoltion3{
     margin-top: -150px;
-    font-size: 6rem;
+    font-size: 5rem;
     text-align: center ;
     
 }
@@ -209,8 +218,9 @@ div.city{
     padding: 90px 0px 190px 0px;
     text-align: center;
     color: black;
-    background-color: white;
+    background-color: #345830;
     margin: -120px;
+    color: aliceblue;
 }
 .cityn{
     display: flex;
@@ -219,11 +229,12 @@ div.city{
     font-size: 0.9em;
     white-space: pre;
     text-shadow: 2px 2px 5px black;
+    color: #ffffff;
 }
 .advte{
     font-size: 9rem;
     text-align: center;
-    color: white;
+    color: #94ECBE;
 
 }
 .adv{
