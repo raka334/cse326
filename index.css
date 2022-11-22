@@ -136,11 +136,13 @@ width: auto;
 .products{
     display: flex;
     
-    padding: 0px 0px 190px 0px;
+    padding: 0px 0px 190px 40px;
     flex-wrap: wrap;
     row-gap: 2em;
     column-gap: 2em;
     margin: 20px;
+    align-items center;
+    
 }
 
     
@@ -149,6 +151,7 @@ width: auto;
     display: flex;
     height: 30em;
     border-radius: 30px;
+   
 }
 
 
@@ -193,6 +196,7 @@ width: auto;
     background-color: #1E3F20;
     border-radius: 60px 60px 0px 0px;
     padding: 1.5em;
+  
     
     
 }
