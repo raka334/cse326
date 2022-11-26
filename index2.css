@@ -30,3 +30,40 @@
     display: flex;
     flex-wrap: wrap;
 }
+.stationary{
+    align-items: center;
+    border: 2px solid black;
+    font-weight: bolder;
+    font-size: 3rem;
+
+}
+.stationary-list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.hygiene{
+    align-items: center;
+    border: 2px solid black;
+    font-weight: bolder;
+    font-size: 3rem;
+
+}
+.hygiene-list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.tea{
+    align-items: center;
+    border: 2px solid black;
+    font-weight: bolder;
+    font-size: 3rem;
+
+}
+.tea-list{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
