@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 .chocolate{
     align-items: center;
@@ -11,8 +12,21 @@
 }
 .chocolate-list{
     display: flex;
+    height: 2.2em; 
+    width: 1.8em;
 
 }
 .img{
     size: 100%;
+}
+.health{
+    align-items: center;
+    border: 2px solid black;
+    font-weight: bolder;
+    font-size: 3rem;
+
+}
+.health-list{
+    display: flex;
+    flex-wrap: wrap;
 }
