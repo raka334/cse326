@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.chocolate{
+    align-items: center;
+    border: 2px solid black;
+    font-weight: bolder;
+    font-size: 3rem;
+
+}
+.chocolate-list{
+    display: flex;
+
+}
+.img{
+    size: 100%;
+}
