@@ -304,7 +304,7 @@ div.city{
     padding: 10px 00px 10px 0px;
     margin: 10px;
     cursor: pointer;
-    border-radius: 00px;
+    border-radius: 01px;
     width: 300px;
     background-color:#005a28;
     border: 2px solid #bbffca;
@@ -340,9 +340,26 @@ a{
     background-color: white;
     color: black;
     font-family: 'Raleway';
-    margin-top: 350px;
+    /* margin-top: 350px; */
     text-align: center;
     padding: 0px 0px 0px;
+    align-items: center;
 }
-
-
+.main-contact{
+    display: block;
+    height: 600px;
+}
+.footer-text{
+font-size:2rem ;
+}
+.footer-img{
+    width: 2.5%;
+    height: 2.5%;
+    align-self: center;
+    vertical-align: middle;
+    
+}
+.footer-link{
+    color: black;
+    font-size: 1.5rem;
+}
