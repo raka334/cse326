@@ -67,3 +67,41 @@
 
 
 }
+.fruits{
+    align-items: center;
+    border: 2px solid black;
+    font-weight: bolder;
+    font-size: 3rem;
+
+}
+.fruits-list{
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+.breakfast{
+    align-items: center;
+    border: 2px solid black;
+    font-weight: bolder;
+    font-size: 3rem;
+
+}
+.breakfast-list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.snacks{
+    align-items: center;
+    border: 2px solid black;
+    font-weight: bolder;
+    font-size: 3rem;
+
+
+}
+.snacks-list{
+    display: flex;
+    flex-wrap: wrap;
+
+}
