@@ -141,7 +141,7 @@ width: auto;
     row-gap: 2em;
     column-gap: 2em;
     margin: 20px;
-    align-items center;
+    align-items: center;
     
 }
 
@@ -270,29 +270,49 @@ div.city{
 }
 
 .contact{
-    padding: 90px 0px 90px 0px;
+    padding: 70px 0px 90px 0px;
+    margin: 0px 0px 100px 80px;
 }
 
 .contactform{
     float: left;
-    width: 30%;
+}
+
+.contactus-txt{
+    font-size: 55px;
+    color: #bbffca;
 }
 
 .form-group input {
     text-align: left;
     color: Black;
     font-family: 'Raleway', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     display: block;
-    padding: 6px;
-    margin: 6px auto;
-    width: 370px;
+    padding: 20px;
+    margin: 15px auto;
+    width: 700px;
     border: 2px solid white;
-    border-radius: 20px;
+    border-radius: 0px;
     font-weight: bold;
     opacity: 0.8;
 
 }
+
+.form-group button{
+    font-size: 2.5rem;
+    padding: 10px 00px 10px 0px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 00px;
+    width: 300px;
+    background-color:#005a28;
+    border: 2px solid #bbffca;
+    color: white;
+    font-family: 'Poppins';
+
+}
+
 .alist{
     display: flex;
     font-size: 3rem;
@@ -312,6 +332,5 @@ a{
     border-radius: 20px;
 
 }
-
 
 
