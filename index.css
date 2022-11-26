@@ -333,4 +333,16 @@ a{
 
 }
 
+.footer{
+    display: block;
+    margin: 100px 0px 100px 0px;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    font-family: 'Raleway';
+    margin-top: 350px;
+    text-align: center;
+    padding: 0px 0px 0px;
+}
+
 
