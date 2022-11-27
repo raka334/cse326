@@ -357,9 +357,10 @@ font-size:2rem ;
     height: 2.5%;
     align-self: center;
     vertical-align: middle;
+    fill: #D10000;
     
 }
 .footer-link{
-    color: black;
+    color: #065d30;
     font-size: 1.5rem;
 }
