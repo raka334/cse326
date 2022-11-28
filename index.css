@@ -337,6 +337,8 @@ a{
 .productimg{
     display:block;
     border-radius: 20px;
+    height: -webkit-fill-available;
+    box-shadow: 0 15px 20px rgb(0 0 0 / 50%);
 
 }
 
