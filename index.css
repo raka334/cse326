@@ -116,11 +116,19 @@ width: auto;
     display: block;
     height: 2.2em;
     width: 1.8em ;
-    border:2px solid red;
+    /* border:2px solid red; */
     border-radius: 30px;
     box-shadow: 0 20px 25px rgba(0,0,0,0.2);
     margin-right: 20px;
+    
 }
+
+.proffers > img{
+    width: inherit;
+    border-radius: 30px;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.2);
+}
+
 .offerings{
     display: block;
     font-size: 5rem;
