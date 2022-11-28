@@ -244,17 +244,24 @@ div.city{
 .adv{
     display: flex;
     justify-content: space-between;
+    margin: 0px 100px 0px;
    
     
 }
 .advd{
     display: flex;
-    border: 2px solid crimson;
+    /* border: 2px solid crimson; */
     width: 30%;
     height: 30rem;
     
 }
 
+.advd > img {
+    border-radius: 30px;
+    width: -webkit-fill-available;
+    box-shadow: 0 30px 40px rgb(0 0 0 / 50%);
+    
+}
 
 .about{
     display: flex;
