@@ -184,6 +184,7 @@ width: auto;
     border-radius: 80px;
     padding: 12px 35px 18px 35px;
     margin-left: 100px;
+    
 }
 
 .shopnow:active {
@@ -250,6 +251,7 @@ div.city{
     font-size: 9rem;
     text-align: center;
     color: #94ECBE;
+    font-weight: 800;
 
 }
 .adv{
